@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "mini-calc"
+version = "0.1.0"
+description = ""
+authors = ["Maxim-Komogortsev <helgurskoggur@gmail.com>"]
+readme = "README.md"
+packages = [{include = "mini_calc"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.scripts]
+mini-calc = "mini_calc.scripts.app:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
