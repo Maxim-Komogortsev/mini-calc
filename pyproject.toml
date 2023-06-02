@@ -8,6 +8,8 @@ packages = [{include = "mini_calc"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
+flake8 = "^6.0.0"
+prompt = "^0.4.1"
 
 [tool.poetry.scripts]
 mini-calc = "mini_calc.scripts.app:main"

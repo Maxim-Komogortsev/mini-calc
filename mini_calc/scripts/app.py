@@ -1,5 +1,7 @@
+from mini_calc.calculator.main_cycle import * 
+
 def main():
-    print('Check')
+    play()
 
 
 if __name__ == '__main__':
