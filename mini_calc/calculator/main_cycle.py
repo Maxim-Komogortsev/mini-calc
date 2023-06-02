@@ -12,10 +12,10 @@ def play():
     while continue_calc:
         print("To exit press q")
         question = prompt.string('Input: ')
-
+        question = validate(question)
+        
         if question == "q":
             continue_calc = False
         else:
-            question = validate(question)
             expression = question.split()
             print("Answer: ", count_polska(to_polska(expression)))
